@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "updatedAt": "2026-01-22T00:00:00Z",
+  "tips": [
+    {
+      "id": "moving_water_best",
+      "priority": 100,
+      "when": { "any": true },
+      "do": [
+        "Prioritize moving water. The slowest bite is often near slack."
+      ],
+      "avoid": [],
+      "notes": []
+    },
+    {
+      "id": "rising_marsh_edges",
+      "priority": 90,
+      "when": { "trend": "rising" },
+      "do": [
+        "Fish flooded edges and structure that gets covered as the tide rises."
+      ],
+      "avoid": [
+        "Avoid getting pinned in shallow creeks if you plan to stay through the fall."
+      ],
+      "notes": []
+    },
+    {
+      "id": "falling_drains",
+      "priority": 90,
+      "when": { "trend": "falling" },
+      "do": [
+        "Focus on drains, creek mouths, and cuts. Bait funnels out on the fall."
+      ],
+      "avoid": [
+        "Be cautious running shallow routes near dead low."
+      ],
+      "notes": []
+    },
+    {
+      "id": "near_low_navigation",
+      "priority": 80,
+      "when": { "nextTide": "low", "withinHours": 3 },
+      "do": [
+        "Use the next few hours to check depths and plan routes for low water."
+      ],
+      "avoid": [
+        "Avoid shortcutting shoals and bars near low tide."
+      ],
+      "notes": []
+    },
+    {
+      "id": "near_high_access",
+      "priority": 70,
+      "when": { "nextTide": "high", "withinHours": 3 },
+      "do": [
+        "Higher water can open access to backwater edges and marsh lines."
+      ],
+      "avoid": [
+        "Avoid anchoring where the falling tide will leave you stuck."
+      ],
+      "notes": []
+    },
+    {
+      "id": "small_craft_advisory",
+      "priority": 200,
+      "when": { "hasAlert": true },
+      "do": [
+        "Check marine forecast details before heading out."
+      ],
+      "avoid": [
+        "Avoid inlets and exposed water when wind opposes tide and seas are building."
+      ],
+      "notes": [
+        "Active NWS alerts detected for your area."
+      ]
+    }
+  ]
+}
